@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.questioncard-container {
+  font-family: 'Lato';
+  position: relative;
+  width: 500px;
+  padding: 20px 20px 40px;
+  box-shadow: 1px 1px 5px 1px #ccc;
+  border-radius: 5px;
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: 3px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .5);
+    font-size: 0.875rem;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin: 20px 10px 0;
+    }
+  }
+
+  .skip-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    cursor: pointer;
+    font-size: 0.875rem;
+    color:rgba(0, 0, 0, .5);
+  }
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question Container Component should render a card 1`] = `
+<div
+  className="questioncard-container"
+>
+  <h3>
+    Nada para ser respondido!
+  </h3>
+</div>
+`;
